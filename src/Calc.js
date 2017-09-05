@@ -11,9 +11,9 @@ class Calc extends Component{
     }
     render(){
         return(
-            <div>
+            <div className="calc">
                 <p>Calculator</p>
-                <div>{this.state.resultBox}</div>
+                <div className='display'>{this.state.resultBox}</div>
                 <div>
                 <button onClick={()=>{
                     this._clear()}}>

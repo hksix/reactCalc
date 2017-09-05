@@ -18,6 +18,18 @@
   font-size: large;
 }
 
+.calc{
+  font-size: 25px;
+  width:50%;
+  /* border: 1px solid red; */
+}
+
+.display{
+  
+  /* width: 20%; */
+  /* border: 1px solid blue; */
+
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
